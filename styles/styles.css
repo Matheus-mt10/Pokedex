@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.content h1{
+    margin: .2rem;
+}
+
+.pokemons{
+    padding: 0;
+}
+
+ul.pokemons{
+    margin: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul.pokemons li{
+    margin: .5rem;
+    background-color: #14a06f;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    
+}
