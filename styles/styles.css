@@ -42,13 +42,19 @@ body{
 }
 
 .pokemon .number{
-    color: rgba(0, 0, 0, 0.349);
+    color: rgba(0, 0, 0, 0.616);
     text-align: right;
 }
 
 .pokemon .types{
     padding: 0;
     margin: 0;
+    list-style-type: none;
+}
+
+.details{
+    display: flex;
+    flex-flow: row;
 }
 
 .pokemon .detail img{
