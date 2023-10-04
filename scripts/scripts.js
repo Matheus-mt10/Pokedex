@@ -41,7 +41,6 @@ fetch(url)
             pokemonList.innerHTML+= convertPokemonToLi(pokemon)
             
         }
-        
     
     })
     .catch((error) => console.log(error))
